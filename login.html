@@ -1,12 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
+    <style>
+        body{
+            background-color: teal;
+        }
+        h1{
+            color:rgb(110, 110, 218);
+        }
+        #container {
+            width: 25%;
+            height: auto;
+            /* border: 1px solid red; */
+            border-radius: 10px;
+            background-color: whitesmoke;
+            margin: auto;
+            margin-top: 100px;
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            padding: 20px 20px;
+        }
+        form{
+            margin-top: 75px;
+        }
+        input{
+            width: 250px;
+            height: 30px;
+            margin: auto;
+            margin-bottom: 20px;
+            font-weight: 100;
+            font-size: 15px;
+            background-color: transparent;
+            
+        }
+        input:last-child{
+            border: none;
+            border-radius: 15px;
+            background-color: rgb(110, 110, 218);
+            color: white;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <div id="container">
+        <h1>Login</h1>
+        <form action="">
+            <input type="text" name="email" id="" placeholder="Email"><br>
+            <input type="text" name="Password" id="" placeholder="Password"><br>
+            <input type="submit" value="Login">
+        </form>
+
+        <p>Forgot <a href="">Password?</a></p>
+        <p>Don't have an account? <a href="">Sign up</a></p>
+    </div>
+
 </body>
+
 </html>
